@@ -1,0 +1,26 @@
+@import url(./style.css);
+
+/* theme */
+header > h1,h2{
+    background-color: darkcyan;
+    color: #fff;
+    font-weight: normal;
+    line-height: 6.5rem; /*65px */
+    text-align: center;
+    font-size: 4.5;
+
+}
+
+section{
+    max-width: 90rem;
+    margin: 5rem auto;
+    border: solid 0.5rem #333;
+    padding: 1rem;
+}
+section img {
+    width: 100%;
+}
+
+footer *{
+    text-align: center;
+}
