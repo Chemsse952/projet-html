@@ -2,7 +2,7 @@
 
 /* theme */
 :root{ /*selector root = racine avec les variables*/ 
-    --bgcolor:rgba(0, 98, 102,1.0);
+    --bgcolor:darkcyan;
     --colortext:#fff;
     --colorborder:#000000;
     --bgcolcentre:rgb(222, 221, 219);
@@ -13,7 +13,8 @@
 
 header > h1,h2{
 
-    color: #ffffff;
+    color: white;
+    background-color: var(--bgcolor);
     font-weight: normal;
     line-height: 6.5rem; /*65px */
     text-align: center;
