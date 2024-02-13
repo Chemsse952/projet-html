@@ -9,6 +9,8 @@ body{
     letter-spacing: .1rem;
     line-height: 1.6;
     margin: 0;
+    background-color: rgba(255, 255, 255, 0.158);
+    background-image: url("/asset/roi-solomon-9X1oB2l6CH8-unsplash.jpg"); 
 }
 /* on supprime toutes les marges par défaut */
 h1, h2, h3, h4, h5, h6, p, ul, ol{
