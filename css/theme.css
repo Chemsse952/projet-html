@@ -24,3 +24,6 @@ section img {
 footer *{
     text-align: center;
 }
+section a{
+    text-decoration: underline;
+}
