@@ -1,8 +1,18 @@
 @import url(./style.css);
 
 /* theme */
+:root{ /*selector root = racine avec les variables*/ 
+    --bgcolor:rgba(0, 98, 102,1.0);
+    --colortext:#fff;
+    --colorborder:#000000;
+    --bgcolcentre:rgb(222, 221, 219);
+    --linkcolor:blue; 
+    --borderradius: .4rem;
+    --subbtitle:uppercase;
+}
+
 header > h1,h2{
-    background-color: darkcyan;
+
     color: #ffffff;
     font-weight: normal;
     line-height: 6.5rem; /*65px */
@@ -24,6 +34,7 @@ section img {
 
 footer *{
     text-align: center;
+    color: #ffffff;
 }
 section a{
     text-decoration: underline;
