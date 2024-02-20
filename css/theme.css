@@ -44,4 +44,29 @@ footer *{
 }
 section a{
     text-decoration: underline;
+
+}
+a:hover{
+    background-color: #000000;
+    cursor: pointer;
+}
+.btns-default{
+    display: inline-block;
+    width: max-content;
+    background-color: var(--btn-default-color) ;
+    line-height: 2rem;
+    padding: .3rem 1rem;
+    border-radius: var(--borderradius);
+}
+
+
+.btn-option-success{
+    background-color: var(--bgcolor) ;
+    color: var(--colortext);
+    cursor: pointer;
+}
+
+.btn-option-warning{
+    background-color:var(--bgcolor);
+    color: var(--colortext);
 }
