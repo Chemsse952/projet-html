@@ -69,3 +69,6 @@ a:hover{
     background-color:var(--bgcolor);
     color: var(--colortext);
 }
+section h3{
+    margin:.4rem;
+}
